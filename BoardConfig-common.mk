@@ -235,7 +235,6 @@ TARGET_HAS_HDR_DISPLAY := true
 # Vendor Interface Manifest
 DEVICE_MANIFEST_FILE := device/google/coral/manifest.xml
 DEVICE_MATRIX_FILE := device/google/coral/compatibility_matrix.xml
-DEVICE_MANIFEST_FILE += hardware/st/nfc/aidl/nfc-service-default.xml
 # Intall device framework compatibility matrix to product partition
 DEVICE_PRODUCT_COMPATIBILITY_MATRIX_FILE := device/google/coral/device_framework_matrix_product.xml
 
