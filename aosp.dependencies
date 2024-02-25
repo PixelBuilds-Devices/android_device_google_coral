@@ -4,6 +4,12 @@
      "target_path": "kernel/google/msm-4.14"
    },
    {
+      "repository":"android_packages_apps_ElmyraService",
+      "target_path":"packages/apps/ElmyraService",
+      "branch":"unity",
+      "remote":"pixelbuilds"
+   },
+   {
       "repository":"android_vendor_google_coral",
       "target_path":"vendor/google/coral",
       "branch":"unity",
