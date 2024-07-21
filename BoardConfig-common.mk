@@ -239,8 +239,9 @@ DEVICE_MATRIX_FILE := device/google/coral/compatibility_matrix.xml
 DEVICE_PRODUCT_COMPATIBILITY_MATRIX_FILE := device/google/coral/device_framework_matrix_product.xml
 
 # Lineage Health
-TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_DEADLINE := true
-TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_TOGGLE := false
+TARGET_HEALTH_CHARGING_CONTROL_CHARGING_PATH := /sys/class/power_supply/charger/charge_disable
+TARGET_HEALTH_CHARGING_CONTROL_CHARGING_ENABLED := 0
+TARGET_HEALTH_CHARGING_CONTROL_CHARGING_DISABLED := 1
 
 # Lineage FCM
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/pb/config/device_framework_matrix.xml
