@@ -334,6 +334,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.display.defer_fps_frame_count=2 \
     vendor.display.primary_vsyncs_rate_change=2
 
+# Latch unsignaled config
+PRODUCT_PRODUCT_PROPERTIES += \
+    debug.sf.latch_unsignaled=true
+
 # camera google face detection
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.camera.googfd.enable=1
