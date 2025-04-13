@@ -6,13 +6,13 @@
    {
       "repository":"android_packages_apps_ElmyraService",
       "target_path":"packages/apps/ElmyraService",
-      "branch":"unity",
+      "branch":"infinity",
       "remote":"pixelbuilds"
    },
    {
       "repository":"android_vendor_google_coral",
       "target_path":"vendor/google/coral",
-      "branch":"unity",
+      "branch":"infinity",
       "remote":"pixelbuilds-blobs-gitlab"
    }
 ]
