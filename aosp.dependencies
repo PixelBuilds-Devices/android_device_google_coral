@@ -12,7 +12,7 @@
    {
       "repository":"android_vendor_google_coral",
       "target_path":"vendor/google/coral",
-      "branch":"infinity",
+      "branch":"infinity-oss",
       "remote":"pixelbuilds-blobs-gitlab"
    }
 ]
