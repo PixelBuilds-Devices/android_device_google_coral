@@ -599,14 +599,6 @@
     -->
     <bool name="config_enableWifiDisplay">true</bool>
 
-   <!-- Define device configs on boot -->
-    <string-array name="device_configs_override" translatable="false">
-
-      <!-- Motion sense -->
-        <item>oslo/media_app_whitelist=com.amazon.mp3,com.anghami,com.apple.android.music,com.aspiro.tidal,com.bsbportal.music,com.clearchannel.iheartradio.controller,com.ezpeer.ezpeerplus.v4,com.gaana,com.google.android.apps.youtube.music,com.google.android.music,com.hungama.myplay.activity,com.jio.media.jiobeats,com.ktmusic.geniemusic,com.neowiz.android.bugs,com.pandora.android,com.rhapsody,com.shazam.android,com.sirius,com.skysoft.kkbox.android,com.soundcloud.android,com.spotify.music,com.spotify.zerotap,deezer.android.app,fm.awa.liverpool</item>
-
-    </string-array>
-
     <!-- Force enable stock components if installed -->
     <string-array name="config_forceEnabledComponents" translatable="false">
         <item>com.google.oslo/com.google.oslo.OsloOverlay</item>
