@@ -113,6 +113,3 @@ bluetooth.profile.pan.nap.enabled?=true
 bluetooth.profile.pan.panu.enabled?=true
 bluetooth.profile.pbap.server.enabled?=true
 bluetooth.profile.sap.server.enabled?=true
-
-# Override region check for oslo
-pixel.oslo.allowed_override=1
