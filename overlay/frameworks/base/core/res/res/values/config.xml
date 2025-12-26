@@ -599,13 +599,6 @@
     -->
     <bool name="config_enableWifiDisplay">true</bool>
 
-    <!-- Force enable stock components if installed -->
-    <string-array name="config_forceEnabledComponents" translatable="false">
-        <item>com.google.oslo/com.google.oslo.OsloOverlay</item>
-        <item>com.google.oslo/com.google.oslo.OsloSensorManager</item>
-        <item>com.google.oslo/com.google.oslo.service.OsloService</item>
-    </string-array>
-
     <!-- Disable components if installed -->
     <string-array name="config_deviceDisabledComponents">
     <item>com.google.android.GoogleCamera/com.google.android.apps.camera.prewarm.NoOpPrewarmService</item>
