@@ -34,10 +34,6 @@ product/priv-app/HardwareInfo/HardwareInfo.apk;PRESIGNED
 product/priv-app/HotwordEnrollmentOKGoogleHEMIDELTA/HotwordEnrollmentOKGoogleHEMIDELTA.apk;PRESIGNED
 product/priv-app/HotwordEnrollmentXGoogleHEMIDELTA/HotwordEnrollmentXGoogleHEMIDELTA.apk;PRESIGNED
 
-# Motion sense
-product/app/MotionSenseBridgePrebuilt/MotionSenseBridgePrebuilt.apk;PRESIGNED
-system_ext/priv-app/OsloFeedback/OsloFeedback.apk
-
 # Permissions
 product/etc/sysconfig/nexus.xml
 product/etc/sysconfig/pixel_2019_exclusive.xml
